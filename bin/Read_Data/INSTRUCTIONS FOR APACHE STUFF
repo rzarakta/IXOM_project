@@ -1,0 +1,10 @@
+Heres the link to the APACHE JAR's needed to deal with Microsoft documents
+
+https://poi.apache.org/download.html#POI-3.16-beta1
+
+Click the link : "poi-bin-3.16-beta1-20161120.zip" under the bindary distributions page
+
+Save the file locally and extract it
+
+Then go to eclipse, configure build path for our project, add external Jars, and add all jar files in that
+extracted directory. (theres a few sneaky ones in the different folders)

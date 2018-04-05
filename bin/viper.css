@@ -1,0 +1,191 @@
+.root{
+
+-fx-font-size: 8pt;
+
+}
+
+.chart {
+	
+    -fx-padding: 10px;
+    -fx-background-image: url("ixomlayout43.png");
+-fx-background-size: cover;
+}
+.chart-content {
+    -fx-padding: 10px;    
+}
+ 
+.chart-title {
+  -fx-text-fill: #4682b4;
+  -fx-font-size: 1.6em;
+}
+ 
+.axis-label {
+  -fx-text-fill: #4682b4;
+  -fx-font-size: 1.6em;
+}
+ 
+.chart-legend {
+   -fx-background-color:  transparent;
+   -fx-padding: 20px;
+}
+ 
+.chart-legend-item-symbol{
+   -fx-background-radius: 0;
+}
+ 
+.chart-legend-item{
+    -fx-text-fill: #191970;
+}
+ 
+.chart-plot-background {
+    -fx-background-color: white;
+    -fx-background-opacity: 0.5;
+}
+.chart-vertical-grid-lines {
+    -fx-stroke: #D3D3D3;
+    -fx-stroke-width: 1;
+}
+.chart-horizontal-grid-lines {
+    -fx-stroke: #D3D3D3;
+    -fx-stroke-width: 1;
+}
+.chart-alternative-row-fill {
+    -fx-fill: #ebfafa;
+    -fx-fill-opacity: 0.5;
+    -fx-stroke: transparent;
+    -fx-stroke-width: 0;
+}
+
+
+
+.tooltip {
+    -fx-background: rgba(30,30,30);
+    -fx-text-fill: white;
+    -fx-background-color: rgba(30,30,30,0.8);
+    -fx-background-radius: 6px;
+    -fx-background-insets: 0;
+    -fx-padding: 0.667em 0.75em 0.667em 0.75em; /* 10px */
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.5) , 10, 0.0 , 0 , 3 );
+    -fx-font-size: 1.2em;
+    
+}
+
+
+
+.table-view .column-header {
+    -fx-text-fill: red;
+    -fx-font-size: 12;
+    -fx-font-family: "Arial";
+    
+}
+.table-view .column-header{
+    -fx-text-fill: -fx-selection-bar-text;
+    -fx-font-size: 12;
+    -fx-font-family: "Arial";
+}
+
+#flagTable{
+	-fx-font-size: 8pt;
+	
+	}
+	
+#cheesefuck{
+	
+	 -fx-background-image: url("ixomlayout43.png");
+	 -fx-background-size: cover;
+}
+
+#titledickwad{
+	
+	-fx-text-fill: #4682b4;
+}
+
+#printbutton {
+    -fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Arial";
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-size: 12px;
+    -fx-padding: 10 20 10 20;
+}
+
+
+
+.root{
+    -fx-background-color: #262626;
+    -fx-background-image: url("ixomlayout43.png");
+}
+
+.table-view{
+    
+}
+
+.table-view:focused{
+    -fx-background-color: transparent;
+}
+
+/* Spaltenköpfe
+    Struktur column-header-background -> column-header */
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(#29a3a3 0%, #424141 100%);
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: black;
+    -fx-text-alignment: center;
+}
+
+.table-column{
+	-fx-alignment: CENTER;
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color,  #c2f0f0;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+.table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, #ebfafa;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */  
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #2eb8b8;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+
+.table-view > .virtual-flow > .scroll-bar:vertical,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track-background, 
+.table-view > .virtual-flow > .scroll-bar:horizontal,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track-background {
+    -fx-background-color: transparent;
+}
+
+
+
+.table-view > .virtual-flow > .scroll-bar > .increment-button, 
+.table-view > .virtual-flow > .scroll-bar > .decrement-button {
+    -fx-opacity: 0;
+}	
