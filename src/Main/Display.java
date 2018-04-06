@@ -260,7 +260,7 @@ public class Display extends Application {
 
 		return output;
 	}
-
+//IXOM_project
 	public static void main(String args[]) {
 		launch(args);
 	}
